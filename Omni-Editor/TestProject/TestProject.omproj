@@ -1,0 +1,4 @@
+Project:
+  Name: TestProject
+  StartScene: Test_Scene.omscene
+  AssetDirectory: assets

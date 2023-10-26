@@ -1,0 +1,250 @@
+Scene: New Scene
+Entities:
+  - Entity: 8320987784450095285
+    Active: true
+    Name: Color Grid
+    RelationshipComponent:
+      Parent: "NULL"
+      Children:
+        {}
+    TransformComponent:
+      Transform: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [64, 64, 1]
+      LocalTransform: [0, 0, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [64, 64, 1]
+    SpriteRendererComponent:
+      Active: true
+      Color: [1, 1, 1, 1]
+      Texture: 11627387349762403514
+      TilingFactor: 1
+      Size: [4096, 4096]
+      SpritePosition: [0, 0]
+  - Entity: 13919557987487778786
+    Active: true
+    Name: Checkerboard
+    RelationshipComponent:
+      Parent: "NULL"
+      Children:
+        {}
+    TransformComponent:
+      Transform: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [16, 16, 1]
+      LocalTransform: [0, 0, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [16, 16, 1]
+    SpriteRendererComponent:
+      Active: true
+      Color: [1, 1, 1, 1]
+      Texture: 3954076942155644117
+      TilingFactor: 1
+      Size: [512, 512]
+      SpritePosition: [0, 0]
+  - Entity: 9172777672082462853
+    Active: true
+    Name: Sprites
+    RelationshipComponent:
+      Parent: "NULL"
+      Children:
+        Entity: 217832538714914364
+        Entity: 8217280742872120702
+        Entity: 8061752127898785034
+        Entity: 10874564008982830347
+    TransformComponent:
+      Transform: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+      LocalTransform: [0, 0, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [1, 1, 1]
+  - Entity: 217832538714914364
+    Active: true
+    Name: JOOSEMAN
+    RelationshipComponent:
+      Parent: 9172777672082462853
+      Children:
+        {}
+    TransformComponent:
+      Transform: [-0.5, 0.5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+      LocalTransform: [-0.5, 0.5, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [1, 1, 1]
+    SpriteRendererComponent:
+      Active: true
+      Color: [1, 1, 1, 1]
+      Texture: 17724010301651898750
+      TilingFactor: 1
+      Size: [16, 16]
+      SpritePosition: [0, 3]
+  - Entity: 8217280742872120702
+    Active: true
+    Name: JOOSEMAN
+    RelationshipComponent:
+      Parent: 9172777672082462853
+      Children:
+        {}
+    TransformComponent:
+      Transform: [0.5, 0.5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+      LocalTransform: [0.5, 0.5, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [1, 1, 1]
+    SpriteRendererComponent:
+      Active: true
+      Color: [1, 1, 1, 1]
+      Texture: 17724010301651898750
+      TilingFactor: 1
+      Size: [16, 16]
+      SpritePosition: [1, 3]
+  - Entity: 8061752127898785034
+    Active: true
+    Name: Coin
+    RelationshipComponent:
+      Parent: 9172777672082462853
+      Children:
+        {}
+    TransformComponent:
+      Transform: [-0.5, -0.5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+      LocalTransform: [-0.5, -0.5, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [1, 1, 1]
+    SpriteRendererComponent:
+      Active: true
+      Color: [1, 1, 1, 1]
+      Texture: 17724010301651898750
+      TilingFactor: 1
+      Size: [16, 16]
+      SpritePosition: [3, 0]
+  - Entity: 10874564008982830347
+    Active: true
+    Name: Block
+    RelationshipComponent:
+      Parent: 9172777672082462853
+      Children:
+        {}
+    TransformComponent:
+      Transform: [0.5, -0.5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+      LocalTransform: [0.5, -0.5, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [1, 1, 1]
+    SpriteRendererComponent:
+      Active: true
+      Color: [1, 1, 1, 1]
+      Texture: 17724010301651898750
+      TilingFactor: 1
+      Size: [16, 16]
+      SpritePosition: [3, 3]
+  - Entity: 6144266460541253139
+    Active: true
+    Name: JOOSEMAN
+    RelationshipComponent:
+      Parent: "NULL"
+      Children:
+        {}
+    TransformComponent:
+      Transform: [-1, 3, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+      LocalTransform: [-1, 3, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [1, 1, 1]
+    SpriteRendererComponent:
+      Active: true
+      Color: [1, 1, 1, 1]
+      Texture: 17724010301651898750
+      TilingFactor: 1
+      Size: [16, 16]
+      SpritePosition: [0, 3]
+  - Entity: 16045932541175729027
+    Active: true
+    Name: JOOSEMAN
+    RelationshipComponent:
+      Parent: "NULL"
+      Children:
+        {}
+    TransformComponent:
+      Transform: [1, 3, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+      LocalTransform: [1, 3, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [1, 1, 1]
+    SpriteRendererComponent:
+      Active: true
+      Color: [1, 1, 1, 1]
+      Texture: 17724010301651898750
+      TilingFactor: 1
+      Size: [16, 16]
+      SpritePosition: [0, 3]
+  - Entity: 11107937196430174829
+    Active: true
+    Name: Transparency Test
+    RelationshipComponent:
+      Parent: "NULL"
+      Children:
+        {}
+    TransformComponent:
+      Transform: [0, 3, 0]
+      Rotation: [0, 0, 0]
+      Scale: [8, 2, 2]
+      LocalTransform: [0, 3, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [8, 2, 2]
+    SpriteRendererComponent:
+      Active: true
+      Color: [1, 1, 1, 1]
+      Texture: 2605559532405183742
+      TilingFactor: 1
+      Size: [116, 29]
+      SpritePosition: [0, 0]
+  - Entity: 4055478877122872527
+    Active: true
+    Name: Parent Test
+    RelationshipComponent:
+      Parent: "NULL"
+      Children:
+        Entity: 313084810657104097
+    TransformComponent:
+      Transform: [0, -3, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+      LocalTransform: [0, -3, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [1, 1, 1]
+    SpriteRendererComponent:
+      Active: true
+      Color: [1, 0.0142349005, 0.0142349005, 1]
+      Texture: ""
+      TilingFactor: 1
+      Size: [0, 0]
+      SpritePosition: [0, 0]
+  - Entity: 313084810657104097
+    Active: true
+    Name: Sprite
+    RelationshipComponent:
+      Parent: 4055478877122872527
+      Children:
+        {}
+    TransformComponent:
+      Transform: [2, -3, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+      LocalTransform: [2, 0, 0]
+      LocalRotation: [0, 0, 0]
+      LocalScale: [1, 1, 1]
+    SpriteRendererComponent:
+      Active: true
+      Color: [0, 0.156583786, 1, 1]
+      Texture: ""
+      TilingFactor: 1
+      Size: [0, 0]
+      SpritePosition: [0, 0]

@@ -1,0 +1,37 @@
+Assets:
+  - ID: 2497690936843286333
+    Type: Text
+    Path: assets\alice.txt
+  - ID: 11627387349762403514
+    Type: Texture2D
+    Path: assets\textures\Big_Texture.png
+  - ID: 3618475361013060434
+    Type: Shader
+    Path: assets\shaders\Omni_Sprite.glsl
+  - ID: 10581814920491412791
+    Type: Font
+    Path: assets\fonts\MS Gothic.ttf
+  - ID: 12858334457155529282
+    Type: Misc
+    Path: assets\imgui.ini
+  - ID: 3954076942155644117
+    Type: Texture2D
+    Path: assets\textures\checkerboard.png
+  - ID: 14551311044830678590
+    Type: Text
+    Path: assets\log_settings.txt
+  - ID: 16713893299780325436
+    Type: Scene
+    Path: assets\scenes\Test_Scene.omscene
+  - ID: 10017263401859368422
+    Type: Text
+    Path: assets\test_file.txt
+  - ID: 3001653567640316902
+    Type: Texture2D
+    Path: assets\textures\Color Grid.png
+  - ID: 17724010301651898750
+    Type: Texture2D
+    Path: assets\textures\joosesprites0.png
+  - ID: 2605559532405183742
+    Type: Texture2D
+    Path: assets\textures\Transparency_Test.png

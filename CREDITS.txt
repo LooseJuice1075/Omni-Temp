@@ -1,0 +1,14 @@
+OMNI GAME ENGINE
+
+Libraries in use:
+entt
+spdlog
+bgfx
+bx
+bimg
+glfw
+glm
+stb
+Dear ImGui
+ImGuizmo
+yaml-cpp

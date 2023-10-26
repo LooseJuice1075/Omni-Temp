@@ -1,0 +1,3 @@
+[submodule "Omni/vendor/shaderc"]
+	path = Omni/vendor/shaderc
+	url = https://github.com/google/shaderc
